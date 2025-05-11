@@ -28,3 +28,30 @@ O Jogo de Matemática é uma aplicação web interativa projetada para praticar 
 - Não há dependências externas ou servidor necessário; o jogo roda localmente.
 
 ## Estrutura do Projeto
+
+
+---
+
+### **Instruções para Uso**
+
+1. **Crie o Arquivo `README.md`:**
+   - Copie o conteúdo acima e salve como `README.md` na raiz do seu projeto.
+
+2. **Personalize o `README.md`:**
+   - Substitua o link do repositório (`https://github.com/seu-usuario/jogo-matematica.git`) pelo URL real do seu repositório, se aplicável.
+   - Adicione seu nome ou equipe na seção de agradecimentos.
+   - Se planeja usar uma licença (como MIT), crie um arquivo `LICENSE` com os termos correspondentes.
+
+3. **Teste a Renderização:**
+   - Se hospedar o projeto em um repositório GitHub, o `README.md` será renderizado automaticamente na página principal.
+   - Para visualizar localmente, abra o arquivo em um navegador ou use uma ferramenta como o Visual Studio Code com a extensão Markdown Preview.
+
+---
+
+### **Notas Adicionais**
+
+- O `README.md` foi projetado com foco técnico, detalhando variáveis, funções e a lógica do jogo, além de incluir seções comuns para projetos open-source.
+- Se você não usa GitHub ou quer um formato diferente (ex.: mais simples ou com capturas de tela), me avise que posso ajustar!
+- As melhorias sugeridas são ideias para expansão futura; você pode implementá-las ou removê-las do documento.
+
+Se precisar de mais ajustes ou quiser adicionar algo específico (como diagramas ou exemplos de código), é só pedir!
