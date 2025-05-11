@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bebbbb;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+}
+
+.container{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+
+}
+
+h1{
+    font-size: 36px;
+    color: #333;
+
+}
+
+.questao{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+.input{
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #45a049;
+}
+
+.vidas{
+    color: red;
+
+}
+.tempo{
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Reduz o tamanho base da fonte */
+        padding: 10px; /* Adiciona padding para evitar bordas cortadas */
+    }
+
+    .container {
+        padding: 15px; /* Reduz o padding interno */
+        width: 90%; /* Ocupa 90% da tela para melhor adaptação */
+        max-width: 400px; /* Limita a largura máxima */
+    }
+
+    h1 {
+        font-size: 24px; /* Reduz o tamanho do título */
+    }
+
+    .questao {
+        font-size: 18px; /* Reduz o tamanho da pergunta */
+        margin: 15px 0; /* Reduz a margem */
+    }
+
+    .input {
+        font-size: 16px; /* Reduz o tamanho da fonte do input */
+        padding: 8px; /* Reduz o padding */
+        width: 80%; /* Usa porcentagem para responsividade */
+        max-width: 200px; /* Limita a largura máxima */
+        margin-bottom: 8px; /* Reduz a margem inferior */
+    }
+
+    .btn {
+        font-size: 16px; /* Reduz o tamanho da fonte do botão */
+        padding: 8px 15px; /* Reduz o padding */
+        margin: 5px 0; /* Adiciona margem para espaçamento */
+    }
+
+    .vidas,
+    .tempo {
+        font-size: 14px; /* Reduz o tamanho das exibições de vidas e tempo */
+    }
+}
