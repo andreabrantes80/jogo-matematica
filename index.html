@@ -22,6 +22,26 @@
         <p id="acertos">Acertos: 0</p>
         <p id="vidas" class="vidas">Vidas: 3</p>
         <p id="tempo" class="tempo">Tempos: 10</p>
+        <!-- Botão de Reiniciar -->
+        <button id="btn-reiniciar" class="btn btn-reiniciar" style="display: none;">Jogar Novamente</button>
+    </div>
+
+    <!-- Modal de Regras -->
+    <div id="modal-regras" class="modal">
+        <div class="modal-content">
+            <h2>Regras do Jogo</h2>
+            <p>Bem-vindo ao Jogo de Matemática! Aqui estão as regras:</p>
+            <ul>
+                <li>Resolva operações matemáticas básicas (+, -, *, /).</li>
+                <li>Todas as respostas são números positivos ou zero.</li>
+                <li>Você tem 10 segundos por pergunta. Se o tempo acabar, perde 1 vida.</li>
+                <li>Você começa com 3 vidas. Perde 1 vida por erro ou tempo esgotado.</li>
+                <li>Cada acerto vale 10 pontos e adiciona 10 segundos ao tempo da próxima rodada (máximo de 30 segundos).</li>
+                <li>O jogo termina quando você perder todas as vidas.</li>
+                <li>Digite sua resposta e clique em "Responder" ou pressione "Enter".</li>
+            </ul>
+            <button id="btn-iniciar-jogo" class="btn">Iniciar Jogo</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
