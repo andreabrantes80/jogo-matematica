@@ -1,6 +1,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #bebbbb;
+    background-image: url('background-app.jpg');
+    background-size: cover; /* Cobre toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
     margin: 0;
     display: flex;
     justify-content: center;
@@ -10,7 +13,7 @@ body{
 
 .container{
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
